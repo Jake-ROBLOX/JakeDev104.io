@@ -1,0 +1,56 @@
+									~ "New" NTVDM ~
+
+As many people know, the (NT) DOS Virtual Machine a la NTVDM only works under 32-bit OS. But the developer
+With the nickname "Leecher1337" he gave this opportunity to users running x64 by creating a port of NTVDM. And even more so
+Few people have a 32-bit version these days. Basically, this is a set of patches for the original NTVDM source code that works in
+64-bit system.
+
+--------------------------------------------------------------------------------------------------------------------
+
+But damn! You can use the well-known DOSBox, right?! Personally, I can explain it simply.
+Firstly, for example, emulation of DOS applications does not allow them to interact with other running applications.
+on Windows itself, the same interaction with Windows itself, etc. Or it won't be very convenient to launch the damn DOSBox every time,
+to run ANY DOS application!... I won't tell you in full how this thing works because,
+I don't really understand it myself. If you're missing this information, read the text on this page -
+
+-
+= https://github.com/leecher1337/ntvdmx64
+-
+
+--------------------------------------------------------------------------------------------------------------------
+
+Installation
+
+The installation and compilation process for all this crap is quite long. I even tried to do it all manually, but it all worked out.
+hands and that's why it didn't work. So we'll download a pre-installed version... So, download it from my website, ntvdmx64 directory
+It's located in the software folder. After downloading, run the install.bat file as an administrator. Wait a few seconds...
+If the installation went great, you should see the following msgbox:
+
+	+ Advanced INF Install -----------------------------------X-+
+	+
+	+ NTVDM was installed. You may need to reboot in order
+	+ to execute the loader.
+	+
+	+						--------
+	+						|  OK  |
+	+						--------
+	+-----------------------------------------------------------+
+
+Next, restart your computer. After restarting, try opening the console as an administrator and run
+for example, edit.com, and if it doesn't work, then launch it again, usually after the second launch everything should work.
+
+UNInstallation
+
+There are two ways to remove this crap: one is manually, the other is through the Control Panel. Go to "Uninstall a program."
+and look for NTVDMX64 there... This message will appear and choose yes or no...
+
+	+ NTVDM x64 Uninstaller --------------------------------------X-+
+	+
+	+ Are you sure you want to remove NTVDM from your computer?
+	+
+	+				---------    ---------
+	+				|  YES  |    |  NO   |
+	+				---------    ---------
+	+---------------------------------------------------------------+
+
+P.S. This port doesn't work on my computer anymore, and who knows why... but good luck with the installation.

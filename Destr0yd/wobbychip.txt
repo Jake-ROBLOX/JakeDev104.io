@@ -1,0 +1,24 @@
+									~ Copypaster WobbyChip ~
+	
+I first heard about WobbyChip on my server. He was frequently uploading all sorts of crap to the #malware channel.
+I myself, without realizing this simple truth, had previously done several reviews of his creations. I remember him from his super-mega-cool MBR lockers,
+which he wrote every hour. That is, when it started, the computer would simply reboot and then some message would pop up like:
+"Your PC is hacked by wobbychip" or a picture. And there was no variety, and if he created a new version, then, for example,
+I simply replaced the text or the image... Well, if I wasn't making another MBR locker, I stole other people's ideas, and in the end it turned out
+Something like Trojan.KitteyHacker.TKHB. Basically, it's Joke.Koteyka, created by Ender, but with destructive features like Overite.
+Windows boot record... The latest works of this disabled person are WinXP.Horror.Destructive (!!!), Trojan.Screamer.Win32.
+Two Trojans with crooked screamers, and another one has a non-existent class of malware "WinXP", "Horror" in its name.
+
+Besides me, viruscheck also did a review. He considers this whole thing a quarrel and apparently disagrees with my opinion, since there are reviews for everything.
+She still does all of the above. That is, she sucks his dick, and in the description she writes "the long-awaited horror virus from that very same WobbyChip."
+Actually, these two patients are already beyond cure. But he obviously doesn't give a shit, since he has 18,000 fucking subscribers! And his subscribers, too.
+The same shit-eaters, otherwise I just remember how in the video he called the MBR locker a boot record.
+
+The essence of the problem
+
+I've met people like WobbyChip many times, but he's lucky enough to get reviews of his crap! And people like that appear because
+They want to make viruses, but they're too lazy to work or learn languages ​​properly. And after writing another batch file, they immediately go off to tell stories.
+They tell their mom and dad and classmates about it. Then they hear a bunch of bullshit about how they'll be IT geniuses and hackers. Then they try to convince them otherwise.
+they will no longer be possible. I want to say that the article was not written JUST to shit. It was written to show,
+For example, just learning about programming doesn't necessarily mean you know enough. By spending more time and effort
+The result will always be better. Consequently, the motivation for others will be normal.

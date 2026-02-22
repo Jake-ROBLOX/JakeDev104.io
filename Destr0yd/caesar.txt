@@ -1,0 +1,66 @@
+									~ Caesar Cipher ~
+
+While learning the C language, I came up with the idea of ​​writing an encoder. I had implemented such a program before, but
+in Python. So I thought, why not practice my skills in a new language?
+
+About the code itself
+
+The Caesar cipher can be called one of the simplest ciphers (if it is not the simplest). I will not tell the history,
+Because all of this can be read on Wikipedia. The cipher has its own formula for calculating the encrypted letter.
+(x is the new letter, l is the original letter, k is the key):
+
+x = l + k
+
+It's simple here. Before encryption, a key is optionally selected and added to the letter number (in the alphabet).
+and you get a new letter. The main thing to know is that individual symbols won't be encrypted, only letters! Example:
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+
+|---------------------------------------------------|
+| Key | 2 |
+| Original Post | "Goodbye" |
+| Encrypted message | "Iqqfdag" |
+|---------------------------------------------------|
+
+I think you noticed that when we add the key 2 to the letter Y(25) we get the number 27,
+but the thing is, there's no 27th letter. In that case, according to the cipher rules, when a number greater than 26 comes out, you need to
+Start counting from the beginning. Simply put, use this formula to find the letter:
+
+x = (l - 26) + k
+
+In this case, the number l = 25, and k = 2;
+And then x = 1(A);
+
+Let's write a program
+
+Algorithm:
+1) We receive the message and the key using scanf.
+2) Call the encryption function.
+
+I won't go into detail, I'll just tell you how the EncryptMessage function works:
+
+***********************************************************************************************
+String EncryptMessage(char Message[], UINT Key)
+{
+	for(UINT i = 0; i < strlen(Message); i++)
+	{
+		if(isalpha(Message[i]) == 0)
+			continue;
+		
+		else if(isalpha(Message[i] + Key) == 0)
+			Message[i] = (Message[i] - 26) + Key;
+		
+		else Message[i] += Key;
+	}
+	
+	return Message;
+}
+***********************************************************************************************
+
+Here I have created a custom type String, i.e. a pointer to char and type UINT (aka unsigned int).
+The function returns an encrypted string. Each letter (symbol) from the Message array is processed in a loop.
+
+First of all, we check whether the symbol is a letter, if yes (the function returns 0), then we simply skip this symbol,
+and then the symbol is also checked for a letter, but when adding the key to the symbol. For example, the condition is met if
+Message[i] = 26(Z), and Key = 1. The last condition simply executes the standard formula.

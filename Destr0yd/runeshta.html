@@ -1,0 +1,74 @@
+<html class="translated-ltr" style="--wm-toolbar-height: 1px;"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251"><script src="./runeshta_files/athena.js.download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app217.us.archive.org';v.server_ms=1132;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./runeshta_files/bundle-playback.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./runeshta_files/wombat.js.download" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="./runeshta_files/ruffle.js.download"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://destr0yd.enderman.ch/runeshta.html","20181201183425","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1543689265");
+</script>
+<link rel="stylesheet" type="text/css" href="./runeshta_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./runeshta_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+    <title>Virus.Win32.Neshta Analysis</title>
+    <link rel="icon" href="https://web.archive.org/web/20181201183425im_/https://destr0yd.enderman.ch/nl_icon.png">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="./runeshta_files/m=el_main_css"></head><body bgcolor="black"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;" toolbar-mode="auto">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20181201183425/https://destr0yd.enderman.ch/runeshta.html</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(775,27,25,2,"web","https://destr0yd.enderman.ch/runeshta.html","20181201183425",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+  
+  <!-- ??????? ?????????? -->
+  
+    <div class="textfield">
+      <font color="white">
+      <font face="Tahoma" color="gray">
+      <h1 align="center"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Virus.Win32.Neshta Analysis</font></font></h1>
+      <h2 align="center"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">History</font></font></h2>
+    </font>
+    <font face="Tahoma">
+      <p align="center"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Neshta was written in Belarus in Delphi (according to Wikipedia) in 2005. The virus is compatible only with Windows OS </font></font><s><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">.</font></font></s><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> Interestingly, the author has never been found...
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Also, it has different names in antivirus databases:
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Virus.Win32.Neshta.a - Kaspersky Anti-Virus
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Win32.HLLP.Neshta - Dr. Web
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Win32.Neshta - NOD32
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Win32.Neshuta - Symantec (yes, Neshuta, that's what Symantec wrote in their databases)
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Win32.Apanas - Avast
+         </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Virus.Win32.Neshta.B - 360 Total Security
+      </font></font></p>
+    </font>
+      <font face="Tahoma" color="gray">
+      <h2 align="center"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Description</font></font></h2>
+      </font>
+      <font face="Tahoma">
+      <p align="center"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        First, the virus searches for files with the .exe extension on your computer, infects them, and creates a copy of itself in the Windows folder. The virus changes the registry parameter (HKCR\exefile\shell\open\command) to @="%WINDIR%\svchost.com \"%1\" %*". After this change, every executable file will launch NestA. This will allow NestA to spread more quickly.
+         </font></font><br>
+        <br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        NestA does not have any destructive or graphical payloads.
+      </font></font></p>
+      <br>
+      <br>
+      
+      </font>
+      </font>
+    </div>
+  
+
+
+</body></html>

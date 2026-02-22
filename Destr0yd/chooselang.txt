@@ -1,0 +1,28 @@
+									~ Choosing a language ~
+
+Let's imagine that you are a beginner. You have learned that there are different programming languages. Maybe you are somewhere
+read about the existence of such a wonderful language as Assembler, and if not Assembler,
+It could be about the popular C language, Java, etc. Most likely, you have no idea where to start and why.
+In this article I will explain everything to you BRIEFLY, but if you don’t have enough information, then Google it.
+
+	(This introduction to the article is necessary so that it is clear for whom it is written)
+
+Usually all Japanese are divided into high-level and low-level.
+
+High-level ones - in which it is more convenient to write large programs (not complex ones) than in low-level ones.
+Essentially, their authors make it easier for you to solve various problems by creating ready-made functions, structures, and syntax.
+They have it clearer (if it's not Lisp, haha!).
+
+Low-level (Assembler) -- usually used to solve complex (serious) problems. For example, writing
+drivers, viruses. But writing some kind of utility with a GUI interface and buttons and images will be more difficult,
+since everything will have to be written from scratch...
+
+C++, C, Java and others are high-level (google them and read more about them).
+Assembler is a low-level language (the only one, also google it).
+
+Conclusion
+
+1. Don't be afraid of difficulties.
+2. Write in the language(s) you enjoy writing in, i.e. don't choose just the most popular ones.
+
+And that's all. See you later!

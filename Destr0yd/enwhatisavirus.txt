@@ -1,0 +1,32 @@
+									~ What is a virus? ~
+
+Nowadays viruses aren't really popular and today usually I see some "coders" that make some shitty batch 
+scripts or they make some trojans, other. I don't wan't to say that anything classified as not a virus is a total shit.
+However virus is better than any trojan or ransomware...
+
+---Type----------Self-spreading---
+| Virus              Yes
+| Trojan             No
+----------------------------------
+
+That table shows that trojan can only harm victims computer, but virus can harm and spread itself. So this is the 
+main advantage of it.
+
+Types of viruses
+
+When virus infects other program(PE), this is a file-infecting virus. Also viruses can infect MSOffice files, MBR. 
+Viruses that infect MSOffice files are called macroviruses because it uses macro's. Viruses that infect MBR
+(Master Boot Record) or boot record of floppy are called boot viruses.
+
+HLL viruses
+
+These viruses are written only on high level languages such as C++, C, Pascal etc.
+
+HLLP (High Level Language Parasitic) - are viruses that infect without any damage to the original program, 
+these use a traditional method of infection.
+
+HLLC (High Level Language Companion) - are viruses that use other methods of file-infection.
+
+HLLO (High Level Language Overwriting) - are the most simple viruses, these just replace the original program code with it's own.
+
+So that is the MAIN types of HLL virii's...

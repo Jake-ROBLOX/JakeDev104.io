@@ -1,0 +1,14 @@
+									~ Virus.Win32.Neshta analysis ~
+
+History
+
+It is a Belarus virii coded on Delphi (as WikiPedia tells) in 2005. Virus is only compatible with Windows OS.
+Interesting thing is that author wasn't found... Also, in AV databases it has different names: NeshUta - Symantec, 
+Apanas - Avast and other...
+
+Description
+
+First it searchs files with .EXE (PE) ext. on your computer and infects them, creates a virus body in Windows
+folder. Virus changes a value in regedit (HKCR\exefile\shell\open\command) to @="%WINDIR%\svchost.com \"%1\" %*".
+After this change every executable file will run a virus body. So, basically Neshta will spread quicker...
+Neshta doesn't have any destructive or graphic payloads.

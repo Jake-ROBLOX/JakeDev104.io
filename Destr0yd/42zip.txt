@@ -1,0 +1,6 @@
+									~ Matryoshka Archive ~
+
+42.zip is a zip archive that weighs 41.8 KB, but in it you will see 16 archives containing 16 archives containing
+another 16 archives containing another 16 archives containing another 16 archives :), and they will contain the hanging 0.dll file
+4.3 GB. Naturally, after unpacking all this crap, you'll likely run out of disk space.
+Antivirus software may try to unpack all of this, thereby killing your computer (here's another reason not to install an antivirus =))...

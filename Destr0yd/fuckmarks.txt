@@ -1,0 +1,9 @@
+									~ Removing grades from the electronic journal.
+									(like a tutorial for a schoolchild) ~
+
+Hello, little brats just like me! So, to avoid getting beat up by your parents again for a bad grade.
+We'll need to install AdGuard's Anti-Banner in the electronic diary. I won't tell you what can be removed.
+rating via the element code because after refreshing the page, "removed ratings" will appear again... AdGuard -- extension,
+It's available in Chrome and Opera browsers. So, since it's an extension, you can probably figure out how to install it...
+The rest is very simple: go to your electronic diary and then open the AdGuard menu -> Block ads on this site...
+And in general, the extension can be used as a very good banner blocker. I personally use it when I want to block ads.

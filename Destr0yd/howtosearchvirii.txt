@@ -1,0 +1,19 @@
+									~ How to search for viruses? ~
+
+Searching for viruses isn't easy. And I don't mean downloading everything from unknown sites, because you'll be hard-pressed to find anything useful.
+That won't work. Especially if you're not a moron, you won't even try googling "download a virus."
+"Download a virus without SMS or registration"...
+
+Method number 1:
+
+You can try searching for the malware's source code on a source code site (there are plenty of them), that is,
+use keywords such as "virus source", "trojan code" or even just "virus", "trojan".
+Thus, having found, for example, another Trojan in C++, you will compile it.
+
+Method number 2:
+
+If you have at least one website about virology or something similar, then it usually contains viruses, Trojans,
+their source codes. In addition, you may find links to other similar sites where, accordingly,
+You will find the same thing.
+
+Good luck.

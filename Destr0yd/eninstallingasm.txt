@@ -1,0 +1,7 @@
+									~ Installing assembler on Windows ~
+
+To program on assembler we won't download other fuckers like editors or something. We will download only what we need.
+What we need? We need a compiler, linker and ofcourse every hax00r needs a debugger. So you can download TASM5P package
+from this site or on a site where you usually download shit like that. There must be folders BIN, INCLUDE, LIB.
+Other you can delete. If in BIN directory there's no TD32.EXE download it. Also you can add a BIN path to the system 
+variable "PATH" and then you will be able to run files from BIN. TASM32 - is a translator, TLINK32 - linker, TD32 - debugger.

@@ -1,0 +1,9 @@
+									~ Installing Assembler on Windows ~
+
+We won't download any editors or other crap for programming in ASMA. We'll only download what's needed.
+What do we need? What do we need? We need a compiler and a linker, and everyone will need a debugger too.
+A hacker writing in assembly language. So, download it directly from this site or from the site you usually download from.
+The TASM5P package is similar crap. It must contain the BIN, INCLUDE, and LIB folders. The rest can be deleted.
+If the TD32.EXE file is not in the BIN folder, download it. For convenience, you can add the path to the system environment variable.
+The path to the BIN folder, and then you'll be able to run the files where you need them. TASM32 is a translator, TLINK32 is a linker.
+into the executable file, TD32 is a debugger.

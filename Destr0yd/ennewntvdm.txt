@@ -1,0 +1,14 @@
+									~ "New" NTVDM ~
+
+As everyone knows, "New Technology" DOS Virtual Machine (NTVDM) works only on x86 architecture. But developer Leecher1337
+gave the possibility to use NTVDM on 64-bit systems by creating NTVDM-port. Even more so, not so much people are
+using 32-bit systems now. In sum this is a patch pack for NTVDM source code working in 64-bit systems.
+
+But we can use everyone's favorite DOSBox!!?.. I can explain this easy. At first, for example, emulation of 
+DOS-applications doesn't let them interact with other applications, started through Windows, same with the Windows 
+itself and etc. Or it won't be really convenient to start DOSBox everytime you want to start at least ONE DOS application.
+
+I won't tell anything much about this thing, because I literally haven't learn't anything more about it.
+If you need more i n f o r m a t i o n, read more text on this page.
+
+https://github.com/leecher1337/ntvdmx64
